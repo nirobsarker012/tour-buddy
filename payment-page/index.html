@@ -19,7 +19,7 @@
     <title>Payment Page</title>
     <link rel="stylesheet" href="../payment-page/src/output.css" />
   </head>
-  <body>
+  <body class="font-mulish">
     <header>
       <div class="container">
         <!-- Nav Section Start -->
@@ -63,7 +63,80 @@
       </div>
       <span class="block h-[1px] bg-[#E6E6E6]"></span>
     </header>
-    <main></main>
+    <main>
+      <!-- Payment Section Design -->
+      <section class="py-8">
+        <div class="px-5 lg:px-[180px]">
+          <h3
+            class="font-mulish font-bold text-[24px] md:text-[28px] lg:text-[32px]"
+          >
+            Payment
+          </h3>
+        </div>
+        <!-- Box Design -->
+        <div class="bg-[#f9fafd] px-5 py-8 lg:px-[180px] lg:py-[79px]">
+          <!-- Box Title -->
+          <div class="">
+            <h3
+              class="text-[24px] md:text-[24px] lg:text-[28px] xl:text-[36px] font-inria"
+            >
+              Choose Payment Method
+            </h3>
+          </div>
+          <!-- Input Section -->
+          <div class="lg:flex lg:justify-between lg:items-start">
+            <!-- Input dev -->
+            <div class="py-8 lg:min-w-[690px]">
+              <form>
+                <div class="flex flex-col gap-[10px] mb-[8px]">
+                  <label for="" class="text-[#1C2B38] w-full">Name:</label>
+                  <input
+                    type="text"
+                    placeholder="Enter Your Name"
+                    class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                  />
+                </div>
+
+                <div class="flex flex-col gap-[10px] mb-[8px]">
+                  <label for="" class="text-[#1C2B38]">Transaction Id:</label>
+                  <input
+                    type="text"
+                    placeholder="........"
+                    class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                  />
+                </div>
+
+                <div class="flex flex-col gap-[10px] mb-[8px]">
+                  <label for="" class="text-[#1C2B38]">Phone Number:</label>
+                  <input
+                    type="text"
+                    placeholder="+880/"
+                    class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                  />
+                </div>
+
+                <div class="flex flex-col gap-[10px] mb-[8px]">
+                  <label for="" class="text-[#1C2B38]">Pin Code:</label>
+                  <input
+                    type="number"
+                    placeholder="......."
+                    class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                  />
+                </div>
+              </form>
+            </div>
+            <!-- Image div -->
+            <div class="flex justify-center lg:items-start">
+              <img
+                src="../payment-page/payment-page-img/payment 1.svg"
+                alt=""
+                class="w-[280px]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

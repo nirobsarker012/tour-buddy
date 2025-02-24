@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./payment-page./**/*.{html,js}"],
+  content: ["./payment-page/**/*.{html,js}"],
   theme: {
     extend: {
       container: {
