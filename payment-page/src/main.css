@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NicoMoji";
+  src: url("./fonts/Nico-Moji/ffonts.net.txt") format("woff2"),
+    url("./fonts/Nico-Moji/ffonts.net.txt") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer components {
+  .NicoMoji {
+    font-family: "Nico Moji", "sans-serif";
+  }
+}
