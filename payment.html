@@ -72,164 +72,176 @@
     <main>
       <!-- Payment Section Design -->
       <section class="py-8">
-        <div class="px-5 lg:px-[180px]">
-          <h3
-            class="font-mulish font-bold text-[24px] md:text-[28px] lg:text-[32px]"
-          >
-            Payment
-          </h3>
-        </div>
-        <!-- Box Design -->
-        <div class="bg-[#f9fafd] px-5 py-8 lg:px-[180px] lg:py-[79px]">
-          <!-- Box Title -->
-          <div class="">
+        <div class="container">
+          <div class="px-5 lg:px-[180px]">
             <h3
-              class="text-[24px] md:text-[24px] lg:text-[28px] xl:text-[36px] font-inria"
+              class="font-mulish font-bold text-[24px] md:text-[28px] lg:text-[32px]"
             >
-              Choose Payment Method
+              Payment
             </h3>
           </div>
-          <!-- Input Section -->
-          <div class="lg:flex lg:justify-between lg:items-start">
-            <!-- Input dev -->
-            <div class="py-8 lg:min-w-[690px]">
-              <form>
-                <div class="flex flex-col gap-[10px] mb-[8px]">
-                  <label for="" class="text-[#1C2B38] w-full font-bold"
-                    >Name:</label
-                  >
-                  <input
-                    type="text"
-                    placeholder="Enter Your Name"
-                    class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
-                  />
-                </div>
+        </div>
+        <div class="bg-[#f9fafd]">
+          <div class="container">
+            <!-- Box Design -->
+            <div class="px-5 py-8 lg:px-[180px] lg:py-[79px]">
+              <!-- Box Title -->
+              <div class="">
+                <h3
+                  class="text-[24px] md:text-[24px] lg:text-[28px] xl:text-[36px] font-inria"
+                >
+                  Choose Payment Method
+                </h3>
+              </div>
+              <!-- Input Section -->
+              <div class="lg:flex lg:justify-between lg:items-start">
+                <!-- Input dev -->
+                <div class="py-8 lg:min-w-[690px]">
+                  <form>
+                    <div class="flex flex-col gap-[10px] mb-[8px]">
+                      <label for="" class="text-[#1C2B38] w-full font-bold"
+                        >Name:</label
+                      >
+                      <input
+                        type="text"
+                        placeholder="Enter Your Name"
+                        class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                      />
+                    </div>
 
-                <div class="flex flex-col gap-[10px] mb-[8px]">
-                  <label for="" class="text-[#1C2B38] font-bold mt-2"
-                    >Transaction Id:</label
-                  >
-                  <input
-                    type="text"
-                    placeholder="........"
-                    class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
-                  />
-                </div>
+                    <div class="flex flex-col gap-[10px] mb-[8px]">
+                      <label for="" class="text-[#1C2B38] font-bold mt-2"
+                        >Transaction Id:</label
+                      >
+                      <input
+                        type="text"
+                        placeholder="........"
+                        class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                      />
+                    </div>
 
-                <div class="flex flex-col gap-[10px] mb-[8px]">
-                  <label for="" class="text-[#1C2B38] font-bold mt-2"
-                    >Phone Number:</label
-                  >
-                  <input
-                    type="text"
-                    placeholder="+880-"
-                    class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
-                  />
-                </div>
+                    <div class="flex flex-col gap-[10px] mb-[8px]">
+                      <label for="" class="text-[#1C2B38] font-bold mt-2"
+                        >Phone Number:</label
+                      >
+                      <input
+                        type="text"
+                        placeholder="+880-"
+                        class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                      />
+                    </div>
 
-                <div class="flex flex-col gap-[10px] mb-[8px]">
-                  <label for="" class="text-[#1C2B38] font-bold mt-2"
-                    >Pin Code:</label
-                  >
-                  <input
-                    type="number"
-                    placeholder="......."
-                    class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                    <div class="flex flex-col gap-[10px] mb-[8px]">
+                      <label for="" class="text-[#1C2B38] font-bold mt-2"
+                        >Pin Code:</label
+                      >
+                      <input
+                        type="number"
+                        placeholder="......."
+                        class="bg-[#f4f4f5] outline-none py-2 pl-3 text-[14px]"
+                      />
+                    </div>
+                  </form>
+                </div>
+                <!-- Image div -->
+                <div class="flex justify-center lg:items-start">
+                  <img
+                    src="./payment-page/img/payment 1.svg"
+                    alt=""
+                    class="w-[280px]"
                   />
                 </div>
-              </form>
+              </div>
+              <!-- Method section  -->
+              <div class="pt-14">
+                <h3 class="font-bold text-[15px] xl:text-[18px]">
+                  Select Method:
+                </h3>
+              </div>
+              <!-- CARD BUTTONS -->
+              <div class="pt-4">
+                <!-- Button Inner Div -->
+                <div class="flex justify-center flex-wrap gap-2 xl:gap-[30px]">
+                  <button
+                    class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
+                  >
+                    <span
+                      class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
+                    ></span
+                    >Bkash
+                  </button>
+
+                  <button
+                    class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
+                  >
+                    <span
+                      class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
+                    ></span
+                    >Nagad
+                  </button>
+
+                  <button
+                    class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
+                  >
+                    <span
+                      class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
+                    ></span
+                    >Upay
+                  </button>
+                  <button
+                    class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
+                  >
+                    <span
+                      class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
+                    ></span
+                    >VISA
+                  </button>
+                  <button
+                    class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
+                  >
+                    <span
+                      class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
+                    ></span
+                    >Bkash
+                  </button>
+
+                  <button
+                    class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
+                  >
+                    <span
+                      class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
+                    ></span
+                    >Master Card
+                  </button>
+
+                  <button
+                    class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
+                  >
+                    <span
+                      class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
+                    ></span
+                    >Other
+                  </button>
+                </div>
+              </div>
+
+              <!-- METHOD BTN -->
+              <div class="flex justify-center mt-[40px] mb-7">
+                <button
+                  class="bg-[#13253F] rounded-[78px] font-bold text-[15px] px-[38px] py-[12px] xl:px-[58px] xl:py-[21px] xl:mt-[30px] text-[#ffffff] hover:bg-[#37B1E2] hover:text-[#ffffff] transition-all duration-300"
+                >
+                  Confirm Payment
+                </button>
+              </div>
+              <!-- METHOD IMAGE SECTION -->
+              <div class="flex justify-center mt-[24px]">
+                <img
+                  src="./payment-page/img/sponser_logo.svg"
+                  alt=""
+                  class=""
+                />
+              </div>
             </div>
-            <!-- Image div -->
-            <div class="flex justify-center lg:items-start">
-              <img
-                src="./payment-page/img/payment 1.svg"
-                alt=""
-                class="w-[280px]"
-              />
-            </div>
-          </div>
-          <!-- Method section  -->
-          <div class="pt-14">
-            <h3 class="font-bold text-[15px] xl:text-[18px]">Select Method:</h3>
-          </div>
-          <!-- CARD BUTTONS -->
-          <div class="pt-4">
-            <!-- Button Inner Div -->
-            <div class="flex justify-center flex-wrap gap-2 xl:gap-[30px]">
-              <button
-                class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
-              >
-                <span
-                  class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
-                ></span
-                >Bkash
-              </button>
-
-              <button
-                class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
-              >
-                <span
-                  class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
-                ></span
-                >Nagad
-              </button>
-
-              <button
-                class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
-              >
-                <span
-                  class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
-                ></span
-                >Upay
-              </button>
-              <button
-                class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
-              >
-                <span
-                  class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
-                ></span
-                >VISA
-              </button>
-              <button
-                class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
-              >
-                <span
-                  class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
-                ></span
-                >Bkash
-              </button>
-
-              <button
-                class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
-              >
-                <span
-                  class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
-                ></span
-                >Master Card
-              </button>
-
-              <button
-                class="inline-flex items-center gap-2 bg-[#37B1E2] px-[24px] py-[8px] rounded-[18px] font-mukta font-bold text-[16px] text-[#ffffff]"
-              >
-                <span
-                  class="block bg-[#ffffff] rounded-full w-[10px] h-[10px]"
-                ></span
-                >Other
-              </button>
-            </div>
-          </div>
-
-          <!-- METHOD BTN -->
-          <div class="flex justify-center mt-[40px] mb-7">
-            <button
-              class="bg-[#13253F] rounded-[78px] font-bold text-[15px] px-[38px] py-[12px] xl:px-[58px] xl:py-[21px] xl:mt-[30px] text-[#ffffff]"
-            >
-              Confirm Payment
-            </button>
-          </div>
-          <!-- METHOD IMAGE SECTION -->
-          <div class="flex justify-center mt-[24px]">
-            <img src="./payment-page/img/sponser_logo.svg" alt="" class="" />
           </div>
         </div>
       </section>
