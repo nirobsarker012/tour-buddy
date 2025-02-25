@@ -1,6 +1,2 @@
-git init
-git add .
-git commit -m "header-configuration"
-git branch -M main
-git remote add origin https://github.com/nirobsarker012/tour-buddy.git
-git push -u origin main
+1. Date: 24-2-2-25
+   ---Crate payment page and create profile page design ----------
