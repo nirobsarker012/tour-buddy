@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mukta:wght@200;300;400;500;600;700;800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="../payment-page/src/output.css" />
+  </head>
+  <body class="font-mulish">
+    <header>
+      <div class="container">
+        <!-- Nav Section Start -->
+        <nav class="">
+          <div class="flex items-center justify-between py-4 md:gap-7">
+            <!-- Nav-logo -->
+            <div class="">
+              <img
+                src="./payment-page/img/tour buddy.svg"
+                alt=""
+                class="cursor-pointer w-[180px] md:w-full"
+              />
+            </div>
+            <!-- NavBar Links -->
+            <div class="hidden md:flex md:items-center md:gap-3 lg:gap-[40px]">
+              <div
+                class="md:text-[12px] lg:text-[15px] font-mulish md:font-semibold"
+              >
+                <ul class="inline-flex gap-2 text-[#495560] lg:gap-[30px]">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About US</a></li>
+                  <li><a href="#">Our Most Rated Guides</a></li>
+                  <li><a href="#">Our Packages</a></li>
+                  <li><a href="#">Most Desired Places</a></li>
+                </ul>
+              </div>
+              <!-- Button design -->
+              <button
+                class="hidden md:block md:bg-[#FFDA32] md:py-[10px] md:px-[30px] lg:py-[14px] lg:px-[43px] text-[16px] font-bold text-[#1C2B38]"
+              >
+                Sign In
+              </button>
+            </div>
+
+            <!-- MENU BTN -->
+            <div class="text-[#495560] text-[20px] md:hidden cursor-pointer">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <span class="block h-[1px] bg-[#E6E6E6]"></span>
+    </header>
+    <main>
+      <section class="">
+        <!-- PROFILE TITLE -->
+        <div class="px-5 lg:px-[180px] py-6">
+          <h3 class="font-volk font-bold text-[18px] lg:text-[22px]">
+            User Profile
+          </h3>
+        </div>
+        <div class="bg-[#f9fafd] px-5 py-8 lg:px-[180px] lg:py-[79px]">
+          <div class="flex justify-center pt-2 relative">
+            <!-- Auth Image -->
+            <img
+              src="./payment-page/img/authimg.svg"
+              alt="auth-image"
+              class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            />
+
+            <!-- Pencil Box -->
+            <div
+              class="absolute top-1/2 left-1/2 transform translate-x-7 -translate-y-3/2 bg-[#7BBCB0] w-[40px] h-[40px] rounded-full flex items-center justify-center"
+            >
+              <img
+                src="./payment-page/img/bx_bxs-pencil.svg"
+                alt="pencil-icon"
+              />
+            </div>
+          </div>
+
+          <!-- Date-location section -->
+          <div class="flex justify-center gap-2 mt-16">
+            <!-- location section -->
+            <div class="flex items-center gap-1">
+              <img src="./img/location.svg" alt="" class="" />
+              <p class="">Dhaka</p>
+            </div>
+            <!-- Date section -->
+            <div class="flex items-center gap-1">
+              <img src="./img/birthday_cake.svg" alt="" class="" />
+              <p class="">15th February</p>
+            </div>
+          </div>
+
+          <!-- Button Section -->
+          <div class="">
+            <div
+              class="flex items-center justify-center max-w-[300px] mx-auto pt-4"
+            >
+              <button class="bg-[#7BBCB0] text-[#ffffff] w-full py-[12px]">
+                Profile Information
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-center max-w-[300px] mx-auto pt-4"
+            >
+              <button
+                class="bg-[#ffffff] border border-[#7BBCB0] w-full py-[12px] hover:bg-[#7BBCB0] hover:text-[#ffffff] transition-all duration-[300ms]"
+              >
+                Profile Information
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-center max-w-[300px] mx-auto pt-4"
+            >
+              <button
+                class="bg-[#ffffff] border border-[#7BBCB0] w-full py-[12px] hover:bg-[#7BBCB0] hover:text-[#ffffff] transition-all duration-[300ms]"
+              >
+                Profile Information
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-center max-w-[300px] mx-auto pt-4"
+            >
+              <button
+                class="bg-[#ffffff] border border-[#7BBCB0] hover:bg-[#7BBCB0] hover:text-[#ffffff] w-full py-[12px] transition-all duration-[300ms]"
+              >
+                Profile Information
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

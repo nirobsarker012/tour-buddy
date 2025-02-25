@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./payment-page/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {
       container: {
@@ -13,6 +13,7 @@ module.exports = {
         mulish: ["Mulish", "serif"],
         inria: ["Inria Serif", "serif"],
         mukta: ["Mukta", "serif"],
+        volk: ["Volkhov", "serif"],
       },
     },
   },
